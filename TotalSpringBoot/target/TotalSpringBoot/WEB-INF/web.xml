@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>TotalSpringBoot</display-name>
+
+	<session-config>
+		<session-timeout>-1</session-timeout>
+	</session-config>
+
+
+    <mime-mapping>
+        <extension>pdf</extension>
+        <mime-type>application/pdf</mime-type>
+    </mime-mapping>
+	<mime-mapping>
+		<extension>xla</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlam</extension>
+		<mime-type>application/vnd.ms-excel.addin.macroenabled.12</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlc</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlm</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xls</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlsb</extension>
+		<mime-type>application/vnd.ms-excel.sheet.binary.macroenabled.12</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlsm</extension>
+		<mime-type>application/vnd.ms-excel.sheet.macroenabled.12</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlsx</extension>
+		<mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlt</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xltm</extension>
+		<mime-type>application/vnd.ms-excel.template.macroenabled.12</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xltx</extension>
+		<mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.template</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xlw</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xslt</extension>
+		<mime-type>application/xslt+xml</mime-type>
+	</mime-mapping>
+
+
+</web-app>

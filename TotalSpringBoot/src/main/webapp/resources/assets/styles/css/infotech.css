@@ -1,0 +1,453 @@
+.status_icon_container {
+	position: absolute;
+}
+
+.status_icon_container span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.status_icon_container:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: #ccc;
+	border: 2px solid #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+	border-radius: 100px;
+	margin-right: 5px;
+}
+
+.status_icon_container[data-status='0']:before {
+	background: #ccc;
+}
+
+.status_icon_container[data-status='1']:before {
+	background: #1DBF00;
+}
+
+.status_icon_container[data-status='2']:before {
+	background: #ffeb00;
+}
+
+.status_icon_container[data-status='3']:before {
+	background: #FF0000;
+}
+
+.home_page .map_container {
+	color: black;
+	z-index: auto !important;
+	line-height: 2vh;
+}
+
+.thumbnail_container {
+	text-align: center;
+}
+
+/* Anasayfada araç listesinde */
+.list_vehicles .list_item .thumbnail_container {
+	background: #ffffff;
+}
+
+.widget_container.widget_vehicle_summary .vehicle_icon_container[data-status="0"]
+	{
+	border-color: #ff1744;
+}
+
+.widget_container.widget_vehicle_summary .vehicle_icon_container[data-status="1"]
+	{
+	border-color: #00e676;
+}
+
+.widget_container.widget_vehicle_summary .vehicle_icon_container[data-status="2"]
+	{
+	border-color: #ffea00;
+}
+
+.widget_container.widget_vehicle_summary .vehicle_icon_container[data-status="-1"]
+	{
+	border-color: #bdbdbd;
+}
+
+.icon.ICON_0 {
+	background-image: url("../images/iconTypes/ICON_0.png");
+}
+
+.icon.ICON_1000 {
+	background-image: url("../images/iconTypes/ICON_1000.png");
+}
+
+.icon.ICON_2000 {
+	background-image: url("../images/iconTypes/ICON_2000.png");
+}
+
+.icon.ICON_3000 {
+	background-image: url("../images/iconTypes/ICON_3000.png");
+}
+
+.icon.ICON_4000 {
+	background-image: url("../images/iconTypes/ICON_4000.png");
+}
+
+.icon.ICON_5000 {
+	background-image: url("../images/iconTypes/ICON_5000.png");
+}
+
+.icon.ICON_6000 {
+	background-image: url("../images/iconTypes/ICON_6000.png");
+}
+
+.icon.ICON_7000 {
+	background-image: url("../images/iconTypes/ICON_7000.png");
+}
+
+.icon.ICON_8000 {
+	background-image: url("../images/iconTypes/ICON_8000.png");
+}
+
+.icon.ICON_9000 {
+	background-image: url("../images/iconTypes/ICON_9000.png");
+}
+
+.icon.ICON_10000 {
+	background-image: url("../images/iconTypes/ICON_10000.png");
+}
+
+.icon.ICON_11000 {
+	background-image: url("../images/iconTypes/ICON_11000.png");
+}
+
+.icon.ICON_12000 {
+	background-image: url("../images/iconTypes/ICON_12000.png");
+}
+
+.icon.ICON_13000 {
+	background-image: url("../images/iconTypes/ICON_13000.png");
+}
+
+.icon.ICON_14000 {
+	background-image: url("../images/iconTypes/ICON_14000.png");
+}
+
+.icon.ICON_15000 {
+	background-image: url("../images/iconTypes/ICON_15000.png");
+}
+
+.icon.ICON_16000 {
+	background-image: url("../images/iconTypes/ICON_16000.png");
+}
+
+.icon.ICON_17000 {
+	background-image: url("../images/iconTypes/ICON_17000.png");
+}
+
+.icon.ICON_18000 {
+	background-image: url("../images/iconTypes/ICON_18000.png");
+}
+
+.icon.ICON_19000 {
+	background-image: url("../images/iconTypes/ICON_19000.png");
+}
+
+//
+Anasayfada filtre boş gelince, yükseklik azaldığı için filtre ile div birbirne giriyor
+	 . .search_container .scroll_container {
+	min-height: 400px;
+}
+
+//
+Anasyfada aram listesinde ikon ile yaazılar yanyana çıkmıyor, ayrık çıkıyor
+	 . bunu düzeltmek için eklendi . .search_results_container ul li .result_text
+	{
+	vertical-align: middle;
+}
+
+.search_results_container ul li a {
+	display: inline-table;
+}
+
+.coloredBackGround {
+	background: #2979FF;
+}
+
+/*sehayatler harita yüksekliği  height: calc(100vw * (9/16));*/
+.vehicle_group_list .vehicle_group_item .edit_container .edit_menu {
+	z-index: 100;
+}
+
+.vehicle_group_list .vehicle_group_item .edit_container .edit_menu {
+	min-width: 170px;
+}
+
+.loading {
+	z-index: 20;
+}
+
+//
+Şuanki tabloları bu css ayarı bozmakta . Bu ayar iptal ediliyor .
+	/*
+.popup_container .popup_content {
+	overflow-y: visible;
+}
+*/ 
+
+.info_news_container .info_news .info_container img {
+	width: 300px;
+	height: 300px;
+}
+
+.main_info_container {
+	z-index: 100;
+}
+
+.home_page .map_container .map_footer {
+	z-index: 6;
+}
+
+footer span {
+	margin: 0 2px 0 5px
+}
+
+.icon.icon_close {
+	margin-top: 7px;
+}
+
+.list_vehicles .list_item .description_container .average_speed {
+	font-weight: 600;
+}
+
+.list_vehicles .list_item .description_container .title {
+	font-weight: 600;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+/*Seyahat detay bilgileri aşağıda yer alan 4 lü bilgi  */
+.column_container::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.column_container .column {
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+}
+
+.column_container .column.right {
+	float: right;
+}
+
+.column_container .column.column_10_1 {
+	width: 25%;
+}
+
+.column_container .column.column_10_2 {
+	width: 19%;
+}
+
+.column_container .column.column_10_3 {
+	width: 28%;
+}
+
+ul.favorite_reports_list.list .list_item.favorite_report_item :hover {
+	color: #005aff;
+}
+
+.popup_container.narrow_infotech {
+	width: 55%;
+	height: 70%;
+}
+
+.popup_container.narrow_infotech .popup_content {
+	padding: 20px;
+	font-size: 14px;
+	max-height: unset;
+	overflow-y: auto;
+}
+
+.extraInfoTittle {
+	font-weight: 700 !important;
+}
+
+body.trip_detail_open main>.widget_container {
+	height: 90vh;
+}
+
+.radius_meters {
+	z-index: 2;
+}
+
+
+
+/*************** Tooltip butonu, örnek olarak Coğrafi ayarlar menülerindeki sayfalarda kullanılmıştır.**********************************************************************************/
+.tooltip_help{ position: absolute; text-align: center; background-color: #BCDBEA; border-radius: 50%; width: 18px; height: 18px; font-size: 12px; line-height: 20px; cursor: pointer; }
+a.tooltip_help span { position: absolute; width: 400px; color: #FFFFFF; background: #000000; line-height: 19px; font-size: 15px; text-align: justify; visibility: hidden; border-radius: 6px; }
+a.tooltip_help span:after { content: ''; position: absolute; top: 100%; left: 35%; margin-left: -8px; width: 0; height: 0; border-top: 8px solid #000000; border-right: 8px solid transparent; border-left: 8px solid transparent; }
+a:hover.tooltip_help span { visibility: visible; opacity: 0.8; bottom: 30px; left: 50%; margin-left: -143px; z-index: 999; padding: 5px; }
+/****** END ********* Tooltip butonu, örnek olarak Coğrafi ayarlar menülerindeki sayfalarda kullanılmıştır.**********************************************************************************/  
+  
+#customersPointTypesTbl {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customersPointTypesTbl td, #customersPointTypesTbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customersPointTypesTbl tr:nth-child(even){background-color: #f2f2f2;}
+
+#customersPointTypesTbl tr:hover {background-color: #ddd;}
+
+#customersPointTypesTbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.customersPointTypesText{
+	width: 100%;
+}
+
+
+.form_container .input_wrapper .icon{left: 7px;}
+
+.linkInPopup{
+	text-decoration: underline; outline: none; color: blue; font-size: 13px;
+}
+
+.boldLabel{
+	font-weight: bold;
+}
+
+.sagTikHrefs{
+	text-decoration: underline;
+	text-decoration-color: cadetblue;
+}
+
+.notTrasparentLoading{width:100%; height:100%; position: fixed; background: rgba(255,255,255,1); display: none; top:0; left:0; z-index: 30; }
+.notTrasparentLoading img{display: block; margin: 0 auto; width:100px; height: 100px; position: absolute; top:50%; margin-top: -50px; left:50%; margin-left: -50px;}
+
+.rota_map_r_click_item{font-size: 13px;}
+.list .list_item {margin: 10px 0 0 0;}
+
+
+
+.loginSeperator {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  color:grey;
+}
+
+.loginSeperator:after,
+.loginSeperator:before {
+    content: "";
+    display: block;
+    background: grey;
+    width: 37%;
+    height:1px;
+    margin: 0 10px;
+}
+
+
+.dropbtn {
+  background-color: #2979FF;
+  color: #fff;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e2e2e2;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #e5d17a;}
+
+.show {display: block;
+padding-left: 5px;
+padding-right: 5px;
+text-align: center;
+min-width: -webkit-fill-available;
+}
+
+.popup_container .popup_content {
+	overflow-y: scroll;
+	min-height: 200px!important;
+}
+
+.column_container .column.column_4_1{
+	width: 20%;
+}
+
+.column_container .column.column_4_3{
+	width: 80%;
+}
+
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+.hizliLoginBtn {
+	width: 100%;
+	height: 40px;
+}
+
+
+.aHrefDuzButonsuzHalleri {
+	color: blue;
+    font-size: 14px;
+}
+
+.comboLabelsBildirimler {
+	text-align: left;
+    float: left;
+    font-size: 12px;
+}
+
+.filterListBtn{
+	vertical-align: bottom !important;
+}
+
+.page_header{height: 44px;}
+
+.form_container .input_wrapper_w_icons .icons{
+	top: 15px;
+}
+
+.search_results_container {
+	width: 422px !important;
+}
